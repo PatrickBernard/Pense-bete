@@ -14,7 +14,9 @@ pct restore <containerId> <pathToBackupArchive> --rootfs <sizeInGiB> --storage <
 
 ## clavier fr sur cloudinit proxmox
 
-``apt install keyboard-configuration console-setup``
+```bash
+apt install keyboard-configuration console-setup
+```
 
 ## Boucle for en powershell
 ```bash
