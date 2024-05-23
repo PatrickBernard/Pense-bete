@@ -8,14 +8,18 @@ Probablement du a l'utilisation d'un disque compresser (zfs) migrer vers un volu
 
 Il suffit de restaurer à la main en précisant la nouvelle taille
 
-``pct restore <containerId> <pathToBackupArchive> --rootfs <sizeInGiB> --storage <nameOfTargetStorage>``
+```bash
+pct restore <containerId> <pathToBackupArchive> --rootfs <sizeInGiB> --storage <nameOfTargetStorage>
+```
 
 ## clavier fr sur cloudinit proxmox
 
 ``apt install keyboard-configuration console-setup``
 
 ## Boucle for en powershell
-``dir *.z64 | ForEach-Object { & 'C:\Program Files\7-Zip\7z.exe' a -tzip $_.BaseName $_.Name }``
+```bash
+dir *.z64 | ForEach-Object { & 'C:\Program Files\7-Zip\7z.exe' a -tzip $_.BaseName $_.Name }
+```
 
 ## Installation Linux avec un SSD
 
@@ -28,11 +32,15 @@ sysctl vm.swappiness
 ```
 * zram-tools pour mettre le swap sur une partie de la mémoire compresser
 Déconseiller en production
-``apt install zram-tools``
+```bash
+apt install zram-tools
+```
 
 ## récupérer la clef windows d'un laptop/minipc,...
 
-``strings /sys/firmware/acpi/tables/MSDM``
+```bash
+strings /sys/firmware/acpi/tables/MSDM
+```
 
 ##  psql lent sur proxmox/lxc : (3h => 2 semaines)
 
