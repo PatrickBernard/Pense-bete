@@ -33,3 +33,7 @@ Déconseiller en production
 ## récupérer la clef windows d'un laptop/minipc,...
 
 ``strings /sys/firmware/acpi/tables/MSDM``
+
+##  psql lent sur proxmox/lxc : (3h => 2 semaines)
+
+* (todo) problème apparement lié à zfs
