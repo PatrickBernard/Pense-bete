@@ -38,12 +38,18 @@ Déconseiller en production
 apt install zram-tools
 ```
 
+##  psql lent sur proxmox/lxc : (3h => 2 semaines)
+
+* (todo) problème apparement lié à zfs
+
+# windows
+
 ## récupérer la clef windows d'un laptop/minipc,...
 
 ```bash
 strings /sys/firmware/acpi/tables/MSDM
 ```
+## eviter la connection a un compte microsoft lors de l'installation
 
-##  psql lent sur proxmox/lxc : (3h => 2 semaines)
-
-* (todo) problème apparement lié à zfs
+* ouvrir une console avec MAJ+F10
+``OOBE\BYPASSNRO``
